@@ -1,0 +1,26 @@
+2024-02-28T15:11:04.839+05:30  INFO 40103 --- [restartedMain] c.e.demo.StudentManagementApplication    : Starting StudentManagementApplication using Java 17.0.10 with PID 40103 (/Users/Z00DPFF/Downloads/stud_management_system_spring/target/classes started by Z00DPFF in /Users/Z00DPFF/Downloads/stud_management_system_spring)
+2024-02-28T15:11:04.840+05:30  INFO 40103 --- [restartedMain] c.e.demo.StudentManagementApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-02-28T15:11:04.858+05:30  INFO 40103 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-28T15:11:04.858+05:30  INFO 40103 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-28T15:11:05.099+05:30  INFO 40103 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-28T15:11:05.122+05:30  INFO 40103 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
+2024-02-28T15:11:05.325+05:30  INFO 40103 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-28T15:11:05.330+05:30  INFO 40103 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-28T15:11:05.330+05:30  INFO 40103 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-02-28T15:11:05.350+05:30  INFO 40103 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-28T15:11:05.350+05:30  INFO 40103 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 492 ms
+2024-02-28T15:11:05.526+05:30  INFO 40103 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-28T15:11:05.537+05:30  INFO 40103 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-28T15:11:05.625+05:30  INFO 40103 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6fb64ec8
+2024-02-28T15:11:05.626+05:30  INFO 40103 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-28T15:11:05.955+05:30  INFO 40103 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-28T15:11:06.059+05:30  WARN 40103 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-28T15:11:06.207+05:30  INFO 40103 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-28T15:11:06.224+05:30  INFO 40103 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-28T15:11:06.229+05:30  INFO 40103 --- [restartedMain] c.e.demo.StudentManagementApplication    : Started StudentManagementApplication in 1.548 seconds (process running for 1.796)
+2024-02-28T15:11:54.416+05:30  INFO 40103 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28T15:11:54.416+05:30  INFO 40103 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-28T15:11:54.417+05:30  INFO 40103 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-28T15:31:11.490+05:30  INFO 40103 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-28T15:31:11.492+05:30  INFO 40103 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-28T15:31:11.493+05:30  INFO 40103 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
